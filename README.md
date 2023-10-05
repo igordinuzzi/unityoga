@@ -3,7 +3,7 @@
 ## Features
 
 - Navigation with links to all pages, responsive on all devices.
-  (doc/nav-desktop.jpg)
+  <img src="doc/nav-desktop.jpg>
   
 - Footer with address and Instagram link.
 - Favicon for easy recognition.
