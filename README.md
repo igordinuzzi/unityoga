@@ -1,7 +1,3 @@
-Certainly! Here's the README content without the HTML markup:
-
----
-
 # Unity Yoga Collective Website
 
 ## Features
