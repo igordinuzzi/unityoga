@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Basic styles for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6d00e6; 
+    padding: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); 
+    border-bottom: 2px solid #221F20;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('../img/welcome-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+.cta-button {
+    display: inline-block;
+    background-color: #6d00e6;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    border: 2px solid #6d00e6;
+}
+
+.cta-button:hover {
+    background-color: #fff; 
+    color: #6d00e6;
+    border: 2px solid #6d00e6;
+}
+
+/* Navigation */
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .topnav a:hover {
+    color: #D6E1F5;
+  }
+  
+  .topnav a.active {
+    font-weight: bold;
+    color: #D6E1F5;
+    text-decoration: underline;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: relative;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  } 
+
+
+  @media screen and (max-width: 600px) {
+    .logo {
+      max-width: 20%;
+      content: url(../img/small-logo.png);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .logo {
+      max-width: 100%;
+      content: url(../img/logo.png);
+    }
+  }
+
+
+/* Styles typographys */
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+a {
+    font-family: 'Karla', sans-serif;
+    color: #6d00e6;
+}
+
+/* Text Section paddings */
+.section-text {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: center;
+    text-align: center;
+}
+
+/* Footer */
+
+address {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: #6d00e6;
+    color: #fff;
+    text-align: center;
+    padding: 32px;
+    position: relative;
+}
+
+footer a {
+    color: #fff;
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 24px;
+    float: center;
+    width: 32px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-address {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+/* Homepage icons grid */
+
+.section-black {
+    background-color: #6d00e6;
+    padding: 32px;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    flex-basis: calc(50% - 20px); 
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.title {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.benefits-text {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+    .column {
+        flex-basis: 100%; 
+    }
+}
+
+
+/* Review */
+
+.review-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.review {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.review p {
+    color:#6d00e6;
+}
+
+.stars {
+    font-size: 24px;
+    color: #6d00e6;
+}
+
+.star {
+    margin-right: 5px;
+}
+
+
+cite {
+    font-style: italic;
+    font-family: 'Karla', sans-serif;
+    color:#221F20;
+}
+
+/* Review Responsive Styles */
+@media (max-width: 768px) {
+    .review {
+        width: 80%; 
+    }
+}
+
+/* Newsletter form */
+
+.newsletter-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+input[type="email"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #6d00e6;
+    border-radius: 20px;
+}
+
+input[type="email"]::placeholder {
+    color: #666;
+}
+
+button[type="submit"] {
+    display: inline-block;
+    background-color: #6d00e6;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #fff; 
+    color: #6d00e6;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    color: #221F20;
+    margin-bottom: 5px; /* Add some space below the label */
+    text-align: left;
+  }
+  
+
+/* Contact section homepage */
+
+.section-contact {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-image: url('../img/contact.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.section-contact h1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color:#6d00e6;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        .section-contact {
+            height: auto;
+            padding: 20px;
+        }
+    }
+
+/* Video grid */
+
+.section-video {
+    text-align: center;
+}
+
+.yoga-video {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-card {
+    border: 2px solid #6d00e6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.video-title {
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: 'Karla', sans-serif;
+    color: #6d00e6;
+}
+
+.video-description {
+    margin: 10px 0;
+    font-family: 'Karla', sans-serif;
+    color: #221F20;
+}
+
+.video-type {
+    font-style: italic;
+    font-family: 'Karla', sans-serif;
+    color: #221F20;
+}
+
+.video-length {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: #6d00e6;
+}
+
+.time-icon {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+    color: #6d00e6;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Teachers */
+
+.teacher-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.teacher {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.teacher img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.teacher h2 {
+    color:#6d00e6;
+}
+
+@media (min-width: 768px) {
+    .teacher {
+        width: calc(50% - 20px);
+        margin: 10px;
+        text-align: left;
+    }
+}
+
+/* Accordion Methodology */
+
+.accordion {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.accordion-item {
+    border: 2px solid #6d00e6;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6d00e6;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+.img-yoga {
+    max-width: 100%;
+    height: auto;
+}
+
+.iconaccordion {
+    font-size: 24px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+    .accordion {
+        max-width: 100%;
+    }
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+    .img-yoga {
+        max-width: 100%;
+    }
+}
+
+/* Schedule table */
+
+/* Default styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+
+th, td {
+    border: 2px solid #6d00e6;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+th {
+    background-color: #eee;
+    color: #6d00e6;
+}
+
+/* Additional styles for larger screens */
+@media (min-width: 768px) {
+    table {
+        width: 80%;
+    }
+}
+
+/* Additional styles for smaller screens */
+@media (max-width: 480px) {
+    table {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+    
+    th, td {
+        padding: 8px; /* Reduce padding for smaller screens */
+    }
+}
+
+
+.section-timetable {
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+/* Pricing */
+
+.price-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #6d00e6;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+.card-noborder {
+    background-color: #fff;
+    color: #221F20;
+    border: 2px solid #6d00e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.card-noborder li{
+    margin: 5px 0;
+    color: #221F20;
+}
+
+
+/* Contact */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.map {
+     width: 100%;
+     height: 400px;
+     background-size: cover;
+     background-position: center;
+     padding-top: inherit;
+}
+
+/* Instaclass */
+.map { -webkit-filter: grayscale(100%); }
+
+.contact-info {
+     text-align: center;
+}
+
+.icon {
+     font-size: 24px;
+     margin-right: 10px;
+     color: #6d00e6;
+}
+
+.contact-info a {
+    color: #6d00e6;
+}
