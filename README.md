@@ -3,10 +3,15 @@
 ## Features
 
 - Navigation with links to all pages, responsive on all devices.
-  <img src="doc/nav-desktop.jpg>
+ ![Navigation](doc/nav-desktop.jpg)
+![Navigation mobile](doc/nav-mobile.jpg)
   
 - Footer with address and Instagram link.
+   ![Footer](doc/nav-desktop.jpg)
+
 - Favicon for easy recognition.
+  ![Favicon](doc/favicon.png)
+  
 - Landing page with methodology, newsletter link, and submission form.
 - Free Yoga Online page with embedded Vimeo videos.
 - Teachers page with teacher profiles.
