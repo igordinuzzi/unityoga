@@ -24,7 +24,6 @@
     </header>
     <main>
 
-        <section id="features">
             <h2>Features</h2>
             <p>Our website contains the following features:</p>
             <ul>
@@ -39,10 +38,7 @@
                 <li>Pricing page with package information.</li>
                 <li>Contact page with map, address, and phone details.</li>
             </ul>
-        </section>
-
-        <!-- Second Section: Existing and Future Features -->
-        <section id="features-to-implement">
+    
             <h2>Existing Features and Features to Implement</h2>
             <p>Existing features:</p>
             <ul>
@@ -52,10 +48,8 @@
             <ul>
                 <li>Fix the newsletter submit form (PHP required).</li>
             </ul>
-        </section>
 
-        <!-- Third Section: Technologies -->
-        <section id="technologies">
+
             <h2>Technologies</h2>
             <p>The Unity Yoga Collective website utilizes the following technologies:</p>
             <ul>
@@ -68,10 +62,8 @@
                 <li>GitHub for version control.</li>
                 <li>ChatGPT for content creation.</li>
             </ul>
-        </section>
+    
 
-        <!-- Fourth Section: Testing -->
-        <section id="testing">
             <h2>Testing</h2>
             <p>The website has been thoroughly tested on various devices and browsers:</p>
             <ul>
@@ -93,10 +85,8 @@
                 <li>SEO: 92</li>
             </ul>
             <p>W3C Validator found this error: Element title not allowed as child of element head in this context. (Suppressing further errors from this subtree.)</p>
-        </section>
+   
 
-        <!-- Credits and Media -->
-        <section id="credits">
             <h2>Credits</h2>
             <p>Written content by ChatGPT</p>
             <p>Media:</p>
@@ -105,11 +95,8 @@
                 <li>Illustration by Freepik</li>
                 <li>Logo by Igor Dinuzzi</li>
             </ul>
-        </section>
+
     </main>
-    <footer>
-        <address>123 Yoga Street, Zen City, 12345</address>
-        <a href="https://www.instagram.com/unityyogacollective/">Follow us on Instagram</a>
-    </footer>
+
 </body>
 </html>
