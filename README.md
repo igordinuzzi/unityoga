@@ -3,6 +3,8 @@
 ## Features
 
 - Navigation with links to all pages, responsive on all devices.
+  (docs/nav-desktop.jpg)
+  
 - Footer with address and Instagram link.
 - Favicon for easy recognition.
 - Landing page with methodology, newsletter link, and submission form.
