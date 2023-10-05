@@ -1,6 +1,6 @@
 <h1>Welcome to Unity Yoga Collective</h1>
 
-                <li><a href="index.html">Home</a></li>
+        <a href="index.html">Home</a>
                 <li><a href="free-yoga-online.html">Free Yoga Online</a></li>
                 <li><a href="teachers.html">Teachers</a></li>
                 <li><a href="methodology.html">Methodology</a></li>
