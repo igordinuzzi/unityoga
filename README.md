@@ -1,28 +1,78 @@
-<h1>Welcome to Unity Yoga Collective</h1>
+Certainly! Here's the README content without the HTML markup:
 
-<h2>Features</h2>
-            
-<a href="index.html">Home</a>
-<a href="free-yoga-online.html">Free Yoga Online</a></li
-                <li><a href="teachers.html">Teachers</a></li>
-                <li><a href="methodology.html">Methodology</a></li>
-                <li><a href="schedule.html">Schedule</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-  
-# Tacos Travels
+---
 
-Tacos Travels is a website that allows users to follow Hair O' The Dog club member 'Taco' on his various adventures on his motorbike. These adventures range from day trips, charity events, weekends away and cross country adventures. The website also aims to provide information on the vital services provided by the Blood Bikes charity in which Taco used to volunteer for as an emergency rider. View the live site [here](https://gareth-mcgirr.github.io/tacos-travels/)
+# Unity Yoga Collective Website
 
-![Mockup](docs/readme_images/mockup.JPG)
+## Features
 
-## Features 
+- Navigation with links to all pages, responsive on all devices.
+- Footer with address and Instagram link.
+- Favicon for easy recognition.
+- Landing page with methodology, newsletter link, and submission form.
+- Free Yoga Online page with embedded Vimeo videos.
+- Teachers page with teacher profiles.
+- Methodology page with yoga types in an accordion.
+- Schedule page with class details.
+- Pricing page with package information.
+- Contact page with map, address, and phone details.
 
-### Site wide
-* Navigation Menu
-    * Contains links to the Home, Gallery and Contact pages and will be responsive on all devices.
-    * This will allow users to easily navigate between the pages within the site on any size device. 
+## Existing Features and Features to Implement
 
-![Nav Menu](docs/readme_images/navigation_menu.JPG)
+**Existing features:**
+
+- Newsletter submit form.
+
+**Features to Implement:**
+
+- Fix the newsletter submit form (PHP required).
+
+## Technologies
+
+The Unity Yoga Collective website utilizes the following technologies:
+
+- Figma for design.
+- Material Icons and FontAwesome for icons.
+- CSS for styling.
+- HTML for content.
+- JavaScript for responsive menu and accordion.
+- Visual Studio Code for development.
+- GitHub for version control.
+- ChatGPT for content creation.
+
+## Testing
+
+The website has been thoroughly tested on various devices and browsers:
+
+- Mobile (iPhone)
+- Smaller laptop
+- Bigger iMac
+
+**Browser Compatibility:**
+
+- Safari
+- Firefox
+- Google Chrome
+
+**Lighthouse Report:**
+
+- Performance: 93
+- Accessibility: 89
+- Best Practices: 100
+- SEO: 92
+
+W3C Validator found this error: Element title not allowed as child of element head in this context. (Suppressing further errors from this subtree.)
+
+## Credits
+
+- Written content by ChatGPT
+
+**Media:**
+
+- Images by Unsplash
+- Illustration by Freepik
+- Logo by Igor Dinuzzi
+
+---
+
+Feel free to use this as a template for your GitHub README file. Make sure to replace the placeholders with your actual content and details.
