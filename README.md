@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unity Yoga Collective</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico">
-</head>
-<body>
-    <header>
-        <h1>Welcome to Unity Yoga Collective</h1>
-        <nav>
-            <ul>
+<h1>Welcome to Unity Yoga Collective</h1>
+
                 <li><a href="index.html">Home</a></li>
                 <li><a href="free-yoga-online.html">Free Yoga Online</a></li>
                 <li><a href="teachers.html">Teachers</a></li>
@@ -19,10 +7,7 @@
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="pricing.html">Pricing</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+
 
             <h2>Features</h2>
             <p>Our website contains the following features:</p>
