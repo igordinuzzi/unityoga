@@ -68,7 +68,3 @@ W3C Validator found this error: Element title not allowed as child of element he
 - Images by Unsplash
 - Illustration by Freepik
 - Logo by Igor Dinuzzi
-
----
-
-Feel free to use this as a template for your GitHub README file. Make sure to replace the placeholders with your actual content and details.
