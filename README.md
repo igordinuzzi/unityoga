@@ -13,22 +13,44 @@
   ![Favicon](doc/favicon.png)
   
 - Landing page with methodology, newsletter link, and submission form.
+    ![Landing Page](doc/homepage.png)
+  
 - Free Yoga Online page with embedded Vimeo videos.
+  ![Freeyoga](doc/free-yoga.jpg)
+  
 - Teachers page with teacher profiles.
+  ![Teacher](doc/teachers.jpg)
+  
 - Methodology page with yoga types in an accordion.
+   ![Methodology](doc/methodology.jpg)
+  
 - Schedule page with class details.
+  ![Schedule](doc/schedule.jpg)
+  
 - Pricing page with package information.
+ ![Pricing](doc/pricing.jpg)
+ 
 - Contact page with map, address, and phone details.
+  ![Contact](doc/contact.jpg)
 
 ## Existing Features and Features to Implement
 
 **Existing features:**
 
-- Newsletter submit form.
+- JS Accordion for the methdology page 
 
 **Features to Implement:**
 
 - Fix the newsletter submit form (PHP required).
+  ![Newsletter](doc/newsletter.jpg)
+
+## Wireframes
+
+- Homepage
+  ![Wire-Landing](doc/Wire-Homepage.jpg)
+
+  - Free Yoga Online
+  ![Wire-Freeyoga](doc/Wire-Free Yoga Online.jpg)
 
 ## Technologies
 
@@ -47,11 +69,11 @@ The Unity Yoga Collective website utilizes the following technologies:
 
 The website has been thoroughly tested on various devices and browsers:
 
-- Mobile (iPhone)
-- Smaller laptop
-- Bigger iMac
+- Mobile (iPhone 14)
+- Smaller laptop MacBook Air
+- iMac
 
-**Browser Compatibility:**
+**Browser Compatibility Checked:**
 
 - Safari
 - Firefox
