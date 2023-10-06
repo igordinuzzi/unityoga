@@ -50,7 +50,10 @@
   ![Wire-Landing](doc/Wire-Homepage.jpg)
 
   - Free Yoga Online
-  ![Wire-Freeyoga](doc/Wire-Free Yoga Online.jpg)
+  ![Wire-Freeyoga](doc/Wire-Free.jpg)
+
+  - Methodology
+  ![Wire-Methodology](doc/Wire-Methodology.jpg)
 
 ## Technologies
 
