@@ -45,15 +45,8 @@
   ![Newsletter](doc/newsletter.jpg)
 
 ## Wireframes
+![Wireframes](doc/wireframes.jpg)
 
-- Homepage
-  ![Wire-Landing](doc/Wire-Homepage.jpg)
-
-  - Free Yoga Online
-  ![Wire-Freeyoga](doc/Wire-Free.jpg)
-
-  - Methodology
-  ![Wire-Methodology](doc/Wire-Methodology.jpg)
 
 ## Technologies
 
