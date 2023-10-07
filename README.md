@@ -1,5 +1,11 @@
 # Unity Yoga Collective Website
 
+Unity Yoga Collective is a serene oasis of wellness and self-discovery. 
+The studio offers a holistic approach to yoga and well-being, providing a space where individuals of all backgrounds and abilities 
+can come together to explore the transformative power of yoga and mindfulness.
+
+Live webpage [here](https://igordinuzzi.com/Unity-Yoga/index.html)
+
 ## Features
 
 - Navigation with links to all pages, responsive on all devices.
