@@ -208,6 +208,8 @@ The live link can be found [here](https://igordinuzzi.github.io/unityoga/)
 ## Credits
 
 - Written content by ChatGPT
+- Javascript accordion found [here](https://www.w3schools.com/howto/howto_js_accordion.asp)
+- Burger menu found [here](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
 **Media:**
 
