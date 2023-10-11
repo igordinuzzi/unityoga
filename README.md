@@ -140,12 +140,25 @@ I've discovered several errors on the webpage, specifically related to color con
 **Lighthouse Report:**
 
 - Landing Page
+  ![Landing Page Lighthouse](doc/01-light-index.jpg)
+
 - Free yoga videos page
+  ![Free yoga video Page Lighthouse](doc/02-light-free-yoga.jpg)
+  
 - Teachers page
+  ![Teachers Page Lighthouse](doc/03-light-teachers.jpg)
+  
 - Methodology page
+  ![Methodology Page Lighthouse](doc/04-light-methodology.jpg)
+  
 - Schedule page
+  ![Schedule Page Lighthouse](doc/05-light-schedule.jpg)
+  
 - Pricing page
+  ![Pricing Page Lighthouse](doc/06-light-pricing.jpg)
+  
 - Contact page
+  ![Contact Page Lighthouse](doc/07-light-contact.jpg)
 
 
 W3C Validator found this error: Element title not allowed as child of element head in this context. (Suppressing further errors from this subtree.)
