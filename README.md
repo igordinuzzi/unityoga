@@ -9,6 +9,7 @@ Live webpage [here](https://igordinuzzi.com/Unity-Yoga/index.html)
 ## Features
 
 - Navigation with links to all pages, responsive on all devices.
+Navigation is important in a webpage to help users easily find and access the content they're looking for.
  ![Navigation](doc/nav-desktop.jpg)
 ![Navigation mobile](doc/nav-mobile.jpg)
   
