@@ -88,11 +88,11 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-    Open browser and navigate to Unity Yoga Collective
-    Open the developer tools (right click and inspect)
-    Set to responsive and decrease width to 320px
-    Set the zoom to 50%
-    Click and drag the responsive window to maximum width
+- Open browser and navigate to Unity Yoga Collective
+- Open the developer tools (right click and inspect)
+- Set to responsive and decrease width to 320px
+- Set the zoom to 50%
+- Click and drag the responsive window to maximum width
 
 Expected:
 
@@ -104,12 +104,12 @@ Website behaved as expected.
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-    iPhone 14
-    iPhone SE
-    Samsung Galaxy Android S20 Android 11
-    Macbook Air
-    iMac 27''
-    iMac 24''
+- iPhone 14
+- iPhone SE
+- Samsung Galaxy Android S20 Android 11
+- Macbook Air
+- iMac 27''
+- iMac 24''
 
 
 **Accessibility:**
