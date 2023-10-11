@@ -456,7 +456,7 @@ label {
 iframe {
     max-width: 100%;
     height: auto;
-    border: none;
+    border: 2px solid black;
 }
 
 /* Teachers */
