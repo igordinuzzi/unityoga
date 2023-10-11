@@ -161,7 +161,28 @@ I've discovered several errors on the webpage, specifically related to color con
   ![Contact Page Lighthouse](doc/07-light-contact.jpg)
 
 
-W3C Validator found this error: Element title not allowed as child of element head in this context. (Suppressing further errors from this subtree.)
+**W3C Validator results:**
+
+- Landing Page
+  ![Landing Page validator](doc/01-check-index.png)
+
+- Free yoga videos page
+  ![Free yoga video Page validator](doc/01-check-free.png)
+  
+- Teachers page
+  ![Teachers Page validator](doc/03-check-teachers.png)
+  
+- Methodology page
+  ![Methodology Page validator](doc/04-check-methodology.png)
+  
+- Schedule page
+  ![Schedule Page validator](doc/05-check-schedule.png)
+  
+- Pricing page
+  ![Pricing Page validator](doc/06-check-pricing.png)
+  
+- Contact page
+  ![Contact Page validator](doc/07-check-contact.png)
 
 ## Deployment:
 
