@@ -137,6 +137,90 @@ I've discovered several errors on the webpage, specifically related to color con
 - Firefox
 - Google Chrome
 
+**Functional Testing**
+
+Navigation Links:
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link | Page to Load          |
+| --------------- | ----------------------|
+| Home            | index.html            |
+| Free yoga online| free-yoga-online.html |
+| Teachers        | teachers.html         |
+| Methodology     | methodology.html      |
+| Schedule        | schedule.html         |
+| Pricing         | pricing.html          |
+| Contact         | contact.html          |
+| Thank you page  | thankyou.html         |
+| 404 error page  | 404.html              |
+
+Links on all pages navigated to the correct pages as exptected.
+
+**Form Testing**
+
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+_Scenario One - Correct Inputs_
+
+Steps to test:
+
+1. Navigate to [Unity Collective Yoga - Home Page](https://igordinuzzi.github.io/unityoga/index.html)
+2. Scroll down to the form and input the following data:
+   - Email: your@email.com
+3. Click Submit
+4. User should be redirected to thankyou.html page
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to thankyou.html page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to thankyou.html page.
+
+_Scenario Two - Missing Required Field Email_
+
+Steps to test:
+
+1. Navigate to [Unity Collective Yoga - Home Page](https://igordinuzzi.github.io/unityoga/index.html)
+2. Scroll down to the form and input the following data:
+   - Email: your@email.com
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
+
+Each item opened a new tab when clicked as expected.
+
+**Footer Contact Information**
+
+Testing was performed on the phone number in the contact information section to ensure behaviour was as expected.
+
+_Steps to test Telephone Number_
+
+1. Navigate to [Unity Yoga Collective - Contact](https://igordinuzzi.github.io/unityoga/contact.html)
+2. Click the phone number
+
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behavior was as expected and the window presented me with the following option to call:
+
+- Mobile Phone
+
 **Lighthouse Report:**
 
 - Landing Page
