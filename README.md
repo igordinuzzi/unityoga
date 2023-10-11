@@ -54,7 +54,7 @@ The "Free Yoga Online" page with embedded Vimeo videos offers accessible, engagi
 
 **Features to Implement:**
 
-- Fix the newsletter submit form (PHP required: rectify the newsletter submission form by implementing PHP to ensure proper functionality and data processing.
+- Fix the newsletter submission form (PHP required: rectify the newsletter submission form by implementing PHP to ensure proper functionality and data processing.
   ![Newsletter](doc/newsletter.jpg)
 
 ## Wireframes
@@ -81,6 +81,25 @@ The website has been thoroughly tested on various devices and browsers:
 - Mobile (iPhone 14)
 - Smaller laptop MacBook Air
 - iMac
+
+**Accessibility:**
+
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout the development and for final testing of the deployed website to check for any aid accessibility testing.
+
+Testing was focused to ensure the following criteria were met:
+
+    All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+    Color contrasts meet a minimum ratio as specified in WCAG 2.1 Contrast Guidelines
+    Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+    All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+    All not textual content had alternative text or titles so descriptions were read out to screen readers
+    HTML page lang attribute has been set
+    Aria properties have been implemented correctly
+    WCAG 2.1 Coding best practices being followed
+
+Manual tests were also performed to ensure the website was as accessible as possible and an accessibility issue was identified.
+
+I've discovered several errors on the webpage, specifically related to color contrast and headers. I fixed these issues to enhance accessibility and ensure that all users can easily navigate and interact with the content, promoting a more inclusive and user-friendly experience.
 
 **Browser Compatibility Checked:**
 
