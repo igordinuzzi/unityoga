@@ -50,11 +50,11 @@ The "Free Yoga Online" page with embedded Vimeo videos offers accessible, engagi
 
 **Existing features:**
 
-- JS Accordion for the methdology page 
+- JS Accordion for the methodology page: a JavaScript Accordion implemented on the Methodology page to create an interactive and user-friendly interface that allows users to easily expand and collapse content sections for a more organized and engaging experience. 
 
 **Features to Implement:**
 
-- Fix the newsletter submit form (PHP required).
+- Fix the newsletter submit form (PHP required: rectify the newsletter submission form by implementing PHP to ensure proper functionality and data processing.
   ![Newsletter](doc/newsletter.jpg)
 
 ## Wireframes
