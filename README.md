@@ -146,6 +146,27 @@ I've discovered several errors on the webpage, specifically related to color con
 
 W3C Validator found this error: Element title not allowed as child of element head in this context. (Suppressing further errors from this subtree.)
 
+## Deployment:
+
+**Version Control:**
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+The following git commands were used throughout development to push code to the remote repo:
+git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+git push - This command was used to push all committed code to the remote repository on github.
+
+**Deployment to Github Pages:**
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the menu on left select 'Pages'
+From the source section drop-down menu, select the Branch: main
+Click 'Save'
+A live link will be displayed in a green banner when published successfully.
+The live link can be found [here](https://igordinuzzi.github.io/unityoga/)
+
+
 ## Credits
 
 - Written content by ChatGPT
