@@ -139,10 +139,14 @@ I've discovered several errors on the webpage, specifically related to color con
 
 **Lighthouse Report:**
 
-- Performance: 93
-- Accessibility: 89
-- Best Practices: 100
-- SEO: 92
+- Landing Page
+- Free yoga videos page
+- Teachers page
+- Methodology page
+- Schedule page
+- Pricing page
+- Contact page
+
 
 W3C Validator found this error: Element title not allowed as child of element head in this context. (Suppressing further errors from this subtree.)
 
