@@ -1,16 +1,18 @@
-// script.js
 document.addEventListener("DOMContentLoaded", function () {
     const buttons = document.querySelectorAll(".accordion-button");
+    const contents = document.querySelectorAll(".accordion-content");
 
-    buttons.forEach((button) => {
+    buttons.forEach((button, index) => {
         button.addEventListener("click", function () {
-            const content = this.nextElementSibling;
+            const content = contents[index];
 
-            if (content.style.display === "block") {
-                content.style.display = "none";
-            } else {
-                content.style.display = "block";
-            }
+            // Close all accordion items
+            contents.forEach((item) => {
+                item.style.display = "none";
+            });
+
+            // Open the clicked accordion item
+            content.style.display = "block";
         });
     });
 });
