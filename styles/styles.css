@@ -692,3 +692,7 @@ li {
 .contact-info a {
     color: #6d00e6;
 }
+
+.contact-info a:hover {
+    color: #460095; 
+}
