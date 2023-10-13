@@ -220,7 +220,7 @@ footer a:hover {
 }
 
 .social-icon:hover .icon {
-    content: url('../img/instagram-icon-hover.png'); /* Replace the image source on hover */
+    content: url('img/instagram-icon-hover.png'); /* Replace the image source on hover */
 }
 
 @media (max-width: 768px) {
