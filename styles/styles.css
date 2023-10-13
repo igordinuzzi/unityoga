@@ -83,12 +83,12 @@ header {
   }
   
   .topnav a:hover {
-    color: #E3CAFF;
+    color: #FFB6C1;
   }
   
   .topnav a.active {
     font-weight: bold;
-    color: #E3CAFF;
+    color: #FFB6C1;
     text-decoration: underline;
   }
   
@@ -199,7 +199,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #E3CAFF; 
+    color: #FFB6C1; 
 }
 
 .social-icon {
