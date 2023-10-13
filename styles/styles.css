@@ -89,7 +89,7 @@ header {
   .topnav a.active {
     font-weight: bold;
     color: #FFB6C1;
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   .topnav .icon {
