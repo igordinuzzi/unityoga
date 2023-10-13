@@ -250,6 +250,12 @@ Behavior was as expected and the window presented me with the following option t
 - Contact page
   ![Contact Page Lighthouse](doc/07-light-contact.jpg)
 
+- Thank You Page
+  ![Thank you Lighthouse](doc/09-light-thankyou.jpg)
+
+- 404 Page
+  ![404 Lighthouse](doc/08-light-404.jpg)  
+
 
 **W3C Validator results:**
 
@@ -273,6 +279,12 @@ Behavior was as expected and the window presented me with the following option t
   
 - Contact page
   ![Contact Page validator](doc/07-check-contact.png)
+
+- Thank You Page
+  ![Thank you validator](doc/10-check-thankyou.jpg)
+
+- 404 Page
+  ![404 validator](doc/11-check-404.jpg)    
 
 ## Deployment:
 
