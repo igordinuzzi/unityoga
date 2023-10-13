@@ -46,6 +46,9 @@ The "Free Yoga Online" page with embedded Vimeo videos offers accessible, engagi
 - Contact page with map, address, and phone details. The "Unity Yoga Collective Studio Contact" page is crucial for users to easily locate the studio, establish a physical connection, and contact the business, enhancing accessibility and trust while promoting in-person visits and inquiries. It provides essential information for user engagement and potential clientele.
   ![Contact](doc/contact.jpg)
 
+ - Thank You Newsletter Subscription Page. A special "Thank You Newsletter Subscription Page" for our community members. When users subscribe to our newsletter, they are redirected to this page, which expresses our gratitude and provides a link back to the homepage. It's a thoughtful way to welcome new subscribers and will re-direct users to the homepage by clicking the hyperlink or re-direct automatically after 5 seconds. 
+  ![Thankyou](doc/thank-you.jpg)
+
 ## Existing Features and Features to Implement
 
 **Existing features:**
@@ -152,7 +155,7 @@ Testing was performed to ensure all navigation links on the respective pages, na
 | Schedule        | schedule.html         |
 | Pricing         | pricing.html          |
 | Contact         | contact.html          |
-| Thank you page  | thankyou.html         |
+| Thank you page  | thank-you.html         |
 | 404 error page  | 404.html              |
 
 Links on all pages navigated to the correct pages as exptected.
