@@ -204,10 +204,23 @@ footer a:hover {
 
 .social-icon {
     text-decoration: none;
-    font-size: 24px;
-    float: center;
     width: 32px;
     padding: 20px;
+    display: inline-block; /* Center the image horizontally */
+    transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.social-icon .icon {
+    width: 100%; /* Make sure the image fits inside the container */
+    transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.social-icon:hover .icon {
+    transform: scale(1.1); /* Scale up the image on hover (adjust as needed) */
+}
+
+.social-icon:hover .icon {
+    content: url('../img/instagram-icon-hover.png'); /* Replace the image source on hover */
 }
 
 @media (max-width: 768px) {
