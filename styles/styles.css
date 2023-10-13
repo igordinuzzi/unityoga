@@ -713,3 +713,7 @@ li {
 .contact-info a:hover {
     color: #460095; 
 }
+
+.contact-info a:visited {
+    color: #666;
+}
