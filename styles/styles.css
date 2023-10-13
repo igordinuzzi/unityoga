@@ -198,6 +198,10 @@ footer a {
     color: #fff;
 }
 
+footer a:hover {
+    color: #E3CAFF; 
+}
+
 .social-icon {
     text-decoration: none;
     font-size: 24px;
