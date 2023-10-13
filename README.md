@@ -49,6 +49,9 @@ The "Free Yoga Online" page with embedded Vimeo videos offers accessible, engagi
  - Thank You Newsletter Subscription Page. A special "Thank You Newsletter Subscription Page" for our community members. When users subscribe to our newsletter, they are redirected to this page, which expresses our gratitude and provides a link back to the homepage. It's a thoughtful way to welcome new subscribers and will re-direct users to the homepage by clicking the hyperlink or re-direct automatically after 5 seconds. 
   ![Thankyou](doc/thank-you.jpg)
 
+ - 404 page - Custom 404 page and the auto-redirect feature to the homepage. The custom 404 page and auto-redirect feature have been seamlessly integrated. This ensures that when a user encounters a 404 error, they will experience a smooth transition to the custom 404 page and subsequently be redirected to the homepage. 
+  ![404](doc/404.jpg)
+
 ## Existing Features and Features to Implement
 
 **Existing features:**
