@@ -313,7 +313,7 @@ The live link can be found [here](https://igordinuzzi.github.io/unityoga/)
 - Javascript accordion found [here](https://www.w3schools.com/howto/howto_js_accordion.asp)
 - Burger menu found [here](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 - Icons [here](https://materializecss.com/icons.html)
-- Iconography [here]([https://materializecss.com/icons.html](https://fontawesome.com/v4/icons/))
+- Iconography [here](https://fontawesome.com/v4/icons/)
 
 **Media:**
 
