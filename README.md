@@ -263,7 +263,7 @@ Behavior was as expected and the window presented me with the following option t
   ![Landing Page validator](doc/01-check-index.png)
 
 - Free yoga videos page
-  ![Free yoga video Page validator](doc/01-check-free.png)
+  ![Free yoga video Page validator](doc/02-check-free.png)
   
 - Teachers page
   ![Teachers Page validator](doc/03-check-teachers.png)
