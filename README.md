@@ -46,7 +46,7 @@ The "Free Yoga Online" page with embedded Vimeo videos offers accessible, engagi
 - Contact page with map, address, and phone details. The "Unity Yoga Collective Studio Contact" page is crucial for users to easily locate the studio, establish a physical connection, and contact the business, enhancing accessibility and trust while promoting in-person visits and inquiries. It provides essential information for user engagement and potential clientele.
   ![Contact](doc/contact.jpg)
 
- - Thank You Newsletter Subscription Page. A special "Thank You Newsletter Subscription Page" for our community members. When users subscribe to our newsletter, they are redirected to this page, which expresses our gratitude and provides a link back to the homepage. It's a thoughtful way to welcome new subscribers and will re-direct users to the homepage by clicking the hyperlink or re-direct automatically after 5 seconds. 
+ - Thank You Newsletter Subscription Page. A special "Thank You Newsletter Subscription Page" for our community members. When users subscribe to our newsletter, they are redirected to this page, which expresses our gratitude and provides a link back to the homepage. It's a thoughtful way to welcome new subscribers and will re-direct users to the homepage by clicking the hyperlink or re-direct automatically after 10 seconds. 
   ![Thankyou](doc/thank-you.jpg)
 
  - 404 page - Custom 404 page and the auto-redirect feature to the homepage. The custom 404 page and auto-redirect feature have been seamlessly integrated. This ensures that when a user encounters a 404 error, they will experience a smooth transition to the custom 404 page and subsequently be redirected to the homepage. 
@@ -251,9 +251,11 @@ Behavior was as expected and the window presented me with the following option t
   ![Contact Page Lighthouse](doc/07-light-contact.jpg)
 
 - Thank You Page
+  The low accessibility score is attributed to the redirection. In order to ensure users are informed about the impending redirection, I have included a text warning stating that an automatic redirection will occur in 10 seconds unless they take action, in addition to the call to action that directs them back to the homepage.
   ![Thank you Lighthouse](doc/09-light-thankyou.jpg)
 
 - 404 Page
+  The low accessibility score is attributed to the redirection. In order to ensure users are informed about the impending redirection, I have included a text warning stating that an automatic redirection will occur in 10 seconds unless they take action, in addition to the call to action that directs them back to the homepage.
   ![404 Lighthouse](doc/08-light-404.jpg)  
 
 
@@ -290,7 +292,7 @@ Behavior was as expected and the window presented me with the following option t
 
 **Version Control:**
 
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘Unity Yoga’.
 The following git commands were used throughout development to push code to the remote repo:
 git add <file> - This command was used to add the file(s) to the staging area before they are committed.
 git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
