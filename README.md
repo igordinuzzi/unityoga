@@ -80,6 +80,64 @@ The Unity Yoga Collective website utilizes the following technologies:
 - GitHub for version control.
 - ChatGPT for content creation.
 
+### User Stories
+
+1. **As a yoga enthusiast,** I want to explore different yoga classes and programs so I can find ones that fit my needs and schedule.
+
+2. **As a beginner in yoga,** I need clear information about yoga practices and benefits to understand how it can enhance my wellness journey.
+
+3. **As a visitor to the yoga website,** I want an easy way to subscribe to newsletters for updates on yoga sessions, health tips, and studio news.
+
+4. **As a potential client,** I am looking for contact information and location details to plan my visit or to make inquiries about yoga classes.
+
+5. **As a social media user interested in yoga,** I want to follow the yoga studio on platforms like Instagram to stay connected with the community and get regular updates.
+
+### User Flow
+
+1. **Landing on the Homepage**
+   - User arrives at the Unity Collective Yoga website and sees the navigation menu (Home, Free Yoga Online, Teachers, Methodology, Schedule, Pricing, Contact).
+   - Views the hero section with a welcoming message and a call-to-action button.
+
+2. **Exploring Yoga Classes**
+   - Clicks on 'Schedule' to view available classes and times.
+   - Browses through different yoga sessions to understand what each class offers.
+
+3. **Learning About Yoga's Benefits**
+   - Navigates to 'Why Yoga?' section to read about stress relief and flexibility.
+   - Gains insights into how yoga can improve overall health and wellness.
+
+4. **Subscribing to the Newsletter**
+   - Scrolls down to the newsletter section.
+   - Enters email address and subscribes to receive updates.
+
+5. **Contacting for More Information**
+   - Selects 'Contact' for further inquiries or feedback.
+   - Accesses the contact form or uses provided phone/email details.
+
+6. **Following on Social Media**
+   - Checks the footer for social media icons.
+   - Clicks on the Instagram icon to follow Unity Collective Yoga for regular updates.
+
+### Task Flow for Subscribing to the Newsletter
+
+1. **Accessing the Newsletter Subscription Section**
+   - User scrolls to the 'Namaste Notes' section on the homepage.
+
+2. **Entering Subscription Details**
+   - Types their email address into the provided field.
+
+3. **Completing the Subscription**
+   - Clicks on the 'Subscribe' button to confirm the subscription.
+
+4. **Receiving Confirmation**
+   - Redirects to a 'thank you' page or receives a confirmation email for successfully subscribing.
+
+### Additional Notes
+
+- The website is designed to be user-friendly, catering to both seasoned yoga practitioners and beginners.
+- Emphasis on well-being and the holistic journey of yoga is evident throughout the website.
+- The inclusion of testimonials and detailed descriptions of yoga benefits helps build trust and informs new users.
+
 ## Testing
 
 The website has been thoroughly tested on various devices and browsers:
