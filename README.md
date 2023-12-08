@@ -65,6 +65,7 @@ The "Free Yoga Online" page with embedded Vimeo videos offers accessible, engagi
 
 ## Wireframes
 ![Wireframes](doc/wireframes.jpg)
+![Palette](doc/palette.jpg)
 
 
 ## Technologies
