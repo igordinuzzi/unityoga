@@ -1,5 +1,21 @@
 # Unity Yoga Collective Website
 
+## Table of Contents
+1. [Introduction](#unity-yoga-collective-website)
+2. [Features](#features)
+3. [Existing Features and Features to Implement](#existing-features-and-features-to-implement)
+4. [Wireframes](#wireframes)
+5. [Code Snippets](#code-snippets)
+6. [Technologies](#technologies)
+7. [Learning Outcomes](#learning-outcomes)
+8. [User Stories](#user-stories)
+9. [User Flow](#user-flow)
+   - [Task Flow for Subscribing to the Newsletter](#task-flow-for-subscribing-to-the-newsletter)
+10. [Testing](#testing)
+11. [Deployment](#deployment)
+12. [Credits](#credits)
+
+
 Unity Yoga Collective is a serene oasis of wellness and self-discovery. 
 The studio offers a holistic approach to yoga and well-being, providing a space where individuals of all backgrounds and abilities 
 can come together to explore the transformative power of yoga and mindfulness.
@@ -67,7 +83,7 @@ The "Free Yoga Online" page with embedded Vimeo videos offers accessible, engagi
 ![Wireframes](doc/wireframes.jpg)
 ![Palette](doc/palette.jpg)
 
-## Code Snipeets
+## Code Snippets
 ![Wireframes](doc/code/01.jpg)
 ![Palette](doc/code/02.jpg)
 
@@ -85,7 +101,24 @@ The Unity Yoga Collective website utilizes the following technologies:
 - GitHub for version control.
 - ChatGPT for content creation.
 
-### User Stories
+## Learning Outcomes
+
+From a student's perspective, working on the Unity Yoga Collective Website project offered invaluable learning experiences and skill development in several key areas:
+
+- Web Design and UI/UX Principles: Gained hands-on experience in web design, focusing on user interface and user experience principles to create an aesthetically pleasing and user-friendly website.
+- Responsive Design Techniques: Learned to implement responsive design techniques using CSS and JavaScript, ensuring the website's accessibility and optimal viewing experience across various devices and screen sizes.
+- Content Management and Organization: Developed skills in effectively organizing and presenting content, ensuring that information about yoga classes, schedules, and instructors was clear and easily navigable.
+- Front-End Development Skills: Enhanced front-end development skills, particularly in HTML, CSS, and JavaScript, by building various features such as navigation menus, accordions, and embedded video content.
+- SEO and Web Accessibility: Gained knowledge in SEO best practices and web accessibility standards to make the website more discoverable and inclusive.
+- Project Management: Learned to manage a web development project from conception to deployment, including planning, design, development, testing, and deployment phases.
+- Version Control and Deployment: Became proficient in using version control systems like Git and GitHub, and learned the process of deploying a website to GitHub Pages.
+- Problem-Solving and Debugging: Enhanced problem-solving skills by identifying and resolving various technical issues during development, including responsive design challenges and cross-browser compatibility.
+- Collaboration and Communication: Improved collaboration and communication skills by working with a team (real or hypothetical) and using tools like ChatGPT for content creation.
+- Creative Expression and Branding: Explored creative expression in web design and learned about branding considerations, particularly in creating a website that reflects the ethos and brand of a yoga studio.
+
+This project not only provided practical experience in web development but also offered insights into the wellness industry, particularly the world of yoga and mindfulness, enriching my educational journey.
+
+## User Stories
 
 1. **As a yoga enthusiast,** I want to explore different yoga classes and programs so I can find ones that fit my needs and schedule.
 
@@ -97,7 +130,7 @@ The Unity Yoga Collective website utilizes the following technologies:
 
 5. **As a social media user interested in yoga,** I want to follow the yoga studio on platforms like Instagram to stay connected with the community and get regular updates.
 
-### User Flow
+## User Flow
 
 1. **Landing on the Homepage**
    - User arrives at the Unity Collective Yoga website and sees the navigation menu (Home, Free Yoga Online, Teachers, Methodology, Schedule, Pricing, Contact).
@@ -123,7 +156,7 @@ The Unity Yoga Collective website utilizes the following technologies:
    - Checks the footer for social media icons.
    - Clicks on the Instagram icon to follow Unity Collective Yoga for regular updates.
 
-### Task Flow for Subscribing to the Newsletter
+## Task Flow for Subscribing to the Newsletter
 
 1. **Accessing the Newsletter Subscription Section**
    - User scrolls to the 'Namaste Notes' section on the homepage.
